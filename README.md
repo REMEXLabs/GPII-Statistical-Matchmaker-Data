@@ -1,6 +1,6 @@
 ### Training Data
 
-This repository stores training data for statistical inference of the GPII Statistical matchmaker.
+This repository stores training data for [statistical inference of the GPII Statistical matchmaker](https://github.com/REMEXLabs/GPII-Statistical-Matchmaker-Analysis).
 	
 ### Format
 
