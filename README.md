@@ -30,7 +30,23 @@ A preference Section needs to have one key-value pair for "app", defining which 
 
 Multiple preference sections can be used to define settings for multiple applications.
 
+## Available Data Sets
 
+### dataSecondPhase
+
+Training data based on preference sets that were created during the second round of user testing in the Cloud4all project. 
+
+### generatedDataThirdPhase
+
+Training data that were generated semi-automatically to support demonstration scenarios in January 2015.
+
+### manualDataSecondPhase
+
+Manually created training data to support the test scenarios in the second round of user testing in the Cloud4all project.
+
+### manualDataThirdPhase 
+
+Manually created training data to support the test scenarios in the third round of user testing in the Cloud4all project.
 
 ## Funding Acknowledgement
 
