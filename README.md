@@ -12,7 +12,7 @@ In INI files, key-value pairs are written as
 
     key=value
 
-For easier copying out of JSON formats, the Statistical Analaysis also allows storing key-value pairs as
+To make it easier to copy over data from JSON files, the Statistical Analaysis also allows storing key-value pairs as
 
     "key": "value"
 	
