@@ -2,3 +2,5 @@
 /generated
 *.ini~1~
 *.ini~2~
+*.ini#
+*.marks
