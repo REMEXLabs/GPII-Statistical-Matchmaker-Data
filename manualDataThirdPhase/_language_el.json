@@ -1,0 +1,42 @@
+[context]
+user = "_language_el"
+os = "windows"
+
+[preferences]
+app = "http://registry.gpii.net/common"
+  language = "el"
+
+[preferences]
+app = "http://registry.gpii.net/applications/eu.gpii.olb"
+  language = "el"
+
+[preferences]
+app = "http://registry.gpii.net/applications/info.cloud4all.JME"
+  language = "Greek"
+
+[preferences]
+app = "http://registry.gpii.net/applications/org.gnome.orca"
+  voices.default.family = "el"
+  ; @@ voices.default.name ??
+
+[preferences]
+app = "http://registry.gpii.net/applications/org.nvda-project"
+  speech.espeak.voice = "el"
+  ; @@add UI language 
+
+[preferences]
+app = "http://registry.gpii.net/applications/net.gpii.smarthouse"
+  language = "el"
+
+[preferences]
+app = "http://registry.gpii.net/applications/eu.singularlogic.pixelsense.sociable"
+  language = "el"
+
+[preferences]
+app = "http://registry.gpii.net/applications/de.fraunhofer.iao.C4A-TVM"
+  language = "el"
+
+[preferences]
+app = "http://registry.gpii.net/applications/webinsight.webAnywhere.linux"
+  locale = "el"
+
