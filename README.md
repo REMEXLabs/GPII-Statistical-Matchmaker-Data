@@ -55,9 +55,9 @@ These data should not be combined with training data from previous evaluation ph
 
 The manually created training data for the third evaluation phase consist of the following categories:
 * An updated version of the manual data for the second phase. The main characteristics of this update are:
-** The addition of settings expressed as "common terms" (or "common format terms").
-** The addition of the setting `_disabled=true` where more than one solution in the same category is available and only one should be launched (e.g. to make sure that only NVDA gets launched when there one or more other screen readers are available on the same system).
-** `=` (instead of colons) are now used consistently between key-value pairs.
+  ** The addition of settings expressed as "common terms" (or "common format terms").
+  ** The addition of the setting `_disabled=true` where more than one solution in the same category is available and only one should be launched (e.g. to make sure that only NVDA gets launched when there one or more other screen readers are available on the same system).
+  ** `=` (instead of colons) are now used consistently between key-value pairs.
 * New data for a few new solutions.
 * Data that focus on specific settings instead of entire solutions or groups of settings. Example: speech rate in various screen readers, magnification in various magnifiers, and user interface language in various solutions.
 
@@ -66,3 +66,4 @@ The manually created training data for the third evaluation phase consist of the
 The research leading to these results has received funding from the European
 Union's Seventh Framework Programme (FP7/2007-2013) under grant agreement No.289016
 ([Cloud4all](http://www.cloud4all.info/)).
+
