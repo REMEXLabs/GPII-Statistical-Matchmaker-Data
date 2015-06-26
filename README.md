@@ -25,8 +25,9 @@ The key-value pairs use terms that are either in the namespace
 or in an application-specific namespace, e.g. 
 `http://registry.gpii.net/applications/net.opendirective.maavis`.
 
-The only exception to this rule is the term **`_disabled`** (with the values 
-`true`, `false` or `unknown`; default value is `false`). 
+The only exception to this rule is the term **`_disabled`**,
+which was introduced in the training data for the third pilot phase
+(with the values `true`, `false` or `unknown`; default value is `false`). 
 
 When set to `true`, this term signals to the Statistical Matchmaker that the
 solution it applies to should not be launched. The goal is to prevent 
