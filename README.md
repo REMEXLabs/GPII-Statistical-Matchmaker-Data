@@ -17,7 +17,29 @@ To make it easier to copy over data from JSON files, the Statistical Analaysis a
 
     "key": "value"
 	
-Each file represents one particular set of application settings for a single context configuration. Note that one hierarchical GPII preference set can end up forming multiple .ini files for inference.
+Each file represents one particular set of application settings for a single context configuration. 
+Note that one hierarchical GPII preference set can end up forming multiple `.ini` files for inference.
+
+The key-value pairs use terms that are either in the namespace 
+`http://registry.gpii.net/common/` (called "common terms" in the Cloud4all project)
+or in an application-specific namespace, e.g. 
+`http://registry.gpii.net/applications/net.opendirective.maavis`.
+
+The only exception to this rule is the term **`_disabled`** (with the values 
+`true`, `false` or `unknown`; default value is `false`). 
+
+When set to `true`, this term signals to the Statistical Matchmaker that the
+solution it applies to should not be launched. The goal is to prevent 
+launching solutions that should not or cannot be used together 
+(for example, two solutions of the same type, e.g. screenreaders). 
+
+In some of the training data, the value is set to `unknown`. This signals to
+the Statistical Matchmaker that these training data are only meant to
+learn the relationships between certain terms (e.g. `speechRate` and 
+its application-specific counterparts in all solutions where the speech
+rate of a TTS engine can be set) and should not be clustered as
+real preference sets.
+
 
 ### [context] Section
 
