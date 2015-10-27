@@ -84,6 +84,11 @@ The manually created training data for the third evaluation phase consist of the
 * New data for a few new solutions.
 * Data that focus on specific settings instead of entire solutions or groups of settings. Example: speech rate in various screen readers, magnification in various magnifiers, and user interface language in various solutions.
 
+
+## Licence
+
+The GPII/Cloud4all Statistical Matchmaker's training data are available under the [BSD 3-Clause License](https://github.com/REMEXLabs/GPII-Statistical-Matchmaker/blob/master/LICENSE.txt).
+
 ## Funding Acknowledgement
 
 The research leading to these results has received funding from the European
